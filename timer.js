@@ -18,7 +18,7 @@ loop = function(){
   var now = new Date();
   var diff =   end- now;
   if (diff < 0) {
-    text.html("YOU SURVIVED THE HACKATON!");
+    text.html("CONGRATZ, YOU SURVIVED ANOTHER 48 HOURS!");
   } else {
 
   text.html(Math.floor(diff/86400000) + " Days " + Math.floor((diff%86400000)/3600000) + " Hours " + Math.floor((diff%3600000)/60000) + " minutes " + Math.floor((diff%60000)/1000) + " seconds") ;
